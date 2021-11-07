@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/openFragment">
+
+    <fragment
+        android:id="@+id/openFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.OpenFragment"
+        android:label="fragment_open"
+        tools:layout="@layout/fragment_open" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/leekFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.LeekFragment"
+        android:label="fragment_leek"
+        tools:layout="@layout/fragment_leek" />
+    <fragment
+        android:id="@+id/addZnakFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.AddZnakFragment"
+        android:label="fragment_add_znak"
+        tools:layout="@layout/fragment_add_znak" />
+    <fragment
+        android:id="@+id/editeFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.EditeFragment"
+        android:label="fragment_edite"
+        tools:layout="@layout/fragment_edite" />
+    <fragment
+        android:id="@+id/infoZnakragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.InfoZnakragment"
+        android:label="fragment_info_znakragment"
+        tools:layout="@layout/fragment_info_znakragment" />
+    <fragment
+        android:id="@+id/editeLeekFragment"
+        android:name="com.uz.yolharakatiqoidalari.fragments.EditeLeekFragment"
+        android:label="EditeLeekFragment" />
+</navigation>

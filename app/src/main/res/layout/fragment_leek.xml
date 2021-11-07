@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.LeekFragment">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Yoqtirganlar"
+        app:titleTextColor="@color/white"
+        android:background="#005CA1"
+        app:titleTextAppearance="@style/DancingWhite"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_leek"
+        app:layout_constraintTop_toBottomOf="@id/toolbar1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_rv"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
